@@ -1,23 +1,13 @@
 {
-  "name": "wpreact",
-       "version": "0.1.0",
-            "proxy": "http://localhost:5000/", 
-                "private": true, 
-                    "dependencies": {
-    "express": "^4.16.3" }, 
-        "scripts": {
+  "name": "wpreact", "version": "0.1.0", "proxy": "http://localhost:5000/", "private": true, "dependencies": {
+    "express": "^4.16.3" }, "scripts": {
    
-    "client": "cd client && yarn start", 
-        "server": "nodemon server.js",
-             "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
-  },
-     "eslintConfig": {
+    "client": "cd client && yarn start", "server": "nodemon server.js", "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  }, "eslintConfig": {
     "extends": "react-app"
-  }, 
-    "devDependencies": {
+  }, "devDependencies": {
     "concurrently": "^3.5.0"
-  }, 
-    "browserslist": [
+  }, "browserslist": [
     ">0.2%", "not dead", "not ie <= 11", "not op_mini all"
   ]
 }
